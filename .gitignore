@@ -1,3 +1,5 @@
 dotnet/**/.vs/
 dotnet/**/bin/
 dotnet/**/obj/
+
+py/**/__pycache__/
