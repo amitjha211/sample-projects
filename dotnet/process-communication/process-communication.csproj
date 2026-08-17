@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>process_communication</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="tcore2">
+      <HintPath>C:\git\tools\tcore2\bin\Debug\net8.0\tcore2.dll</HintPath>
+    </Reference>
+    <Reference Include="tcore2.win">
+      <HintPath>C:\git\tools\tcore2.win\bin\Debug\net8.0-windows\tcore2.win.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

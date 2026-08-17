@@ -1,6 +1,6 @@
 #gcc -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -fPIC  HelloJNI.c
 
-source ~/.profile
+#source ~/.profile
 echo $JAVA_HOME
 
 #ls $JAVA_HOME/include
@@ -10,4 +10,3 @@ gcc -fpic -c -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux"   HelloJNI.c -o
 gcc -shared -o HelloJNI.so HelloJNI.o
 
 javac -h . HelloJNI.java
-
